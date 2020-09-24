@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в админку</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div class='table'>
+
+    <div class='tale-wrapper'>
+        <div class='table-title'>Войти в панель администратора</div>
+            <div class='table-content'>
+                <form method='post' id='login-form' class='login-form' action="php/login.php">
+                    <input type='text' placeholder='Логин' class='input' name='login' required>
+                    <input type='password' placeholder='Пароль' class='input' name='password' required>
+                    <input type='submit' value='Войти' class='buttonAdmin'>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
