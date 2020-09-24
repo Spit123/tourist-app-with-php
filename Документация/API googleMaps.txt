@@ -1,0 +1,2 @@
+AIzaSyAfMpAnQsNn6svjqfHVDTEbz-r6XEg1jnE
+Чтобы подключиться к API, передайте этот ключ из приложения в качестве значения параметра: key=API_KEY.

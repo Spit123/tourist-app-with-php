@@ -1,0 +1,51 @@
+*, *:after, *:before {
+    margin: 5px;
+    padding: 0;
+    outline: none;
+	box-sizing: border-box;
+	font-family: "Kurale";
+}
+
+@font-face {
+	font-family: "Kurale";
+	src: url("../fonts/kurale.ttf");
+}
+
+.wrap {
+    border: 3px solid black;
+    margin: 10px 0;
+    width: 600px;
+}
+
+.data_article{
+    cursor: pointer;
+}
+
+.TD_edit, .TD_remove, .TD_insert {
+    cursor: default;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+input, textarea {
+    display: none;
+    width: 400px;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.logout {
+    display: block;
+    width: 100px;
+    margin: 20px 0;
+}
+
+.input {
+    display: block;
+    width: auto;
+}
+
+.buttonAdmin {
+    display: block;
+    width: auto;
+}
